@@ -1,16 +1,15 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 /**
- * Spruce extension class
+ * Onstuimig Spruce extension class
  *
- * @package		Spruce
- * @author		Mark Croxton
- * @copyright	Copyright (c) 2016, hallmarkdesign
- * @link		https://github.com/croxton/spruce
+ * @package		Onstuimig Spruce
+ * @author		Onstuimig, based on work by Mark Croxton
+ * @link		https://github.com/onstuimig/onst_spruce
  * @since		1.0
- * @filesource 	./system/user/addons/spruce/ext.spruce.php
+ * @filesource 	./system/user/addons/onst_spruce/ext.onst_spruce.php
  */
-class Spruce_ext {
+class Onst_spruce_ext {
 		
 	/**
 	 * Constructor
@@ -20,9 +19,9 @@ class Spruce_ext {
 	public function __construct($settings = array())
 	{
 		// required extension properties
-		$this->name				= 'Spruce';
-		$this->version			= '1.0.3';
-		$this->description		= 'Spruce up the control panel with some minor CSS tweaks';
+		$this->name				= 'Onstuimig Spruce';
+		$this->version			= '1.0.0';
+		$this->description		= 'Spruce up the control panel with some minor CSS tweaks. Based on Spruce (https://github.com/croxton/spruce)';
 		$this->settings_exist	= 'n';
 	}
 
@@ -84,7 +83,7 @@ class Spruce_ext {
      */
     public function cp_css_end()
     {
-    	return file_get_contents( PATH_THIRD . '/spruce/css/cp.css');
+    	return file_get_contents( PATH_THIRD . '/onst_spruce/css/cp.css');
     }
 
 	// --------------------------------------------------------------------
