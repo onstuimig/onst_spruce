@@ -12,6 +12,27 @@
 /* main background color */
 body {
 	background: #F2F4F5;
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 20px;
+}
+
+.setting-txt h3, .setting-txt label {
+	font-size: 15px;
+}
+
+.setting-txt em {
+	font-size: 14px;
+}
+
+.btn {
+	font-size: 13px;
+}
+
+.tbl-list .secondary {
+	font-size: 14px;
 }
 
 /* main page title - ideally should have a class! */
@@ -30,7 +51,7 @@ body {
 }
 
 .nav-global .nav-sub-menu a.nav-add,
-.nav-main .nav-sub-menu a.nav-add, 
+.nav-main .nav-sub-menu a.nav-add,
 .nav-custom .nav-sub-menu a.nav-add {
 	color: #1F80BD;
 	background: #E8F8FF;
@@ -39,10 +60,10 @@ body {
 }
 
 .nav-global .nav-sub-menu a.nav-add .icon-add:before,
-.nav-global .nav-sub-menu a.nav-add:hover .icon-add:before, 
-.nav-main .nav-sub-menu a.nav-add .icon-add:before, 
-.nav-main .nav-sub-menu a.nav-add:hover .icon-add:before, 
-.nav-custom .nav-sub-menu a.nav-add .icon-add:before, 
+.nav-global .nav-sub-menu a.nav-add:hover .icon-add:before,
+.nav-main .nav-sub-menu a.nav-add .icon-add:before,
+.nav-main .nav-sub-menu a.nav-add:hover .icon-add:before,
+.nav-custom .nav-sub-menu a.nav-add .icon-add:before,
 .nav-custom .nav-sub-menu a.nav-add:hover .icon-add:before {
 	color: #1F80BD;
 }
@@ -57,7 +78,7 @@ body {
 	border-width: 0 0 0 1px;
 }
 
-.nav-global .nav-site:hover, 
+.nav-global .nav-site:hover,
 .nav-global .nav-has-sub:hover
 {
 	background-color: #25394B;
@@ -78,9 +99,13 @@ body {
 	border-color: #354D6A;
 }
 
-.nav-main a:hover, 
-.nav-custom a:hover, 
-.nav-main a.nav-open, 
+.nav-custom a {
+	font-size: 14px;
+}
+
+.nav-main a:hover,
+.nav-custom a:hover,
+.nav-main a.nav-open,
 .nav-custom a.nav-open {
 	color: #DFE0E2;
 	background: #2D4261;
@@ -96,9 +121,13 @@ body {
 	color: #73BBE8;
 }
 
+.filters a {
+	font-size: 14px;
+}
+
 /* dropdown submenus */
-.nav-main .nav-sub-menu, 
-.nav-custom .nav-sub-menu, 
+.nav-main .nav-sub-menu,
+.nav-custom .nav-sub-menu,
 .nav-global .nav-sub-menu,
 .filters .sub-menu {
 	border: none;
@@ -110,8 +139,8 @@ body {
 	margin-top:-5px;
 }
 
-.nav-main .nav-sub-menu ul, 
-.nav-custom .nav-sub-menu ul, 
+.nav-main .nav-sub-menu ul,
+.nav-custom .nav-sub-menu ul,
 .nav-global .nav-sub-menu,
 .filters .sub-menu {
 	background: #FFF;
@@ -121,16 +150,17 @@ body {
 	top: auto;
 }
 
-.nav-main .nav-sub-menu a, 
-.nav-custom .nav-sub-menu a, 
+.nav-main .nav-sub-menu a,
+.nav-custom .nav-sub-menu a,
 .nav-global .nav-sub-menu a,
 .filters .sub-menu a {
 	color: #333;
 	border-color: transparent;
+	font-size: 14px;
 }
 
-.nav-main .nav-sub-menu a:hover, 
-.nav-custom .nav-sub-menu a:hover, 
+.nav-main .nav-sub-menu a:hover,
+.nav-custom .nav-sub-menu a:hover,
 .nav-global .nav-sub-menu a:hover,
 .filters .sub-menu a:hover {
 	color: #000;
@@ -154,10 +184,15 @@ body {
 .sidebar h2 {
 	background-image: none;
 	box-shadow: none;
+	font-size: 15px;
 }
 
 .sidebar a:link {
 	text-decoration: none;
+}
+
+.sidebar > ul li {
+	font-size: 14px;
 }
 
 /* tabs */
@@ -227,7 +262,7 @@ body {
 }
 
 .setting-field .assets-btn.assets-btn {
-	font-size: 11px;
+	font-size: 13px;
 }
 
 .setting-field .assets-btn.assets-btn:not(.assets-disabled):hover,
@@ -244,5 +279,17 @@ body {
 	margin-right: 10px;
 }
 .assets-contextmenu {
-	font-size: 13px;
+	font-size: 15px;
+}
+
+/* Tag */
+.setting-field .solspace_tag_group .current_tag,
+.setting-field .solspace_tag_group .top_tag,
+.setting-field .solspace_tag_group .suggest_tag {
+	font-size: 15px;
+}
+
+/* Bloqs */
+.blocksft-contextmenu.nav-custom .multistep .step2 a{
+	font-size: 12px;
 }

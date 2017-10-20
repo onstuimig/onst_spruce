@@ -1,6 +1,6 @@
 ## Onstuimig Spruce
 
-Based on [croxton's Spruce](https://github.com/croxton/spruce)
+Based on [Mark Croxton's Spruce](https://github.com/croxton/spruce)
 
 ### Requirements
 
